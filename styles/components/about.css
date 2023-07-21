@@ -17,7 +17,7 @@
   }
   
   .about__description {
-      margin-top:2rem;
+      margin-top:0.5rem;
     max-width: 60ch;
     font-size: var(--size-sm);
     color: var(--clr-slate600);
@@ -29,7 +29,7 @@
   
   .about__subtitle {
       margin-top:3rem;
-    font-size: var(--size-sm);
+    font-size: var(--size-2xl);
     color: var(--clr-slate400);
   }
   
