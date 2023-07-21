@@ -132,7 +132,10 @@
   }
   
   /* xl */
-  @media (min-width: 1280px) {
+  @media (min-width: 1248px) {
+      .about{
+          justify-content:space=around;
+      }
     .about__content {
       gap: 2rem;
     }
