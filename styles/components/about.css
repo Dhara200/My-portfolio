@@ -11,11 +11,13 @@
   }
   
   .about__title {
+      margin-bottom:1rem;
     font-size: var(--size-2xl);
     color: var(--clr-light);
   }
   
   .about__description {
+      margin-top:2rem;
     max-width: 60ch;
     font-size: var(--size-sm);
     color: var(--clr-slate600);
@@ -26,12 +28,16 @@
   }
   
   .about__subtitle {
+      margin-top:3rem;
     font-size: var(--size-sm);
     color: var(--clr-slate400);
   }
   
   .about__ul-container {
     display: flex;
+      flex-direction:column;
+      justify-content:centre;
+      align-items:centre;
   }
   
   .about__ul {
