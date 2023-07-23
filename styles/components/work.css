@@ -7,7 +7,9 @@
     color: var(--clr-light);
       margin-bottom:10px;
   }
-  
+  .work__container{
+      margin-top:10px;
+  }
   .work__description {
     max-width: 60ch;
     font-size: var(--size-sm);
