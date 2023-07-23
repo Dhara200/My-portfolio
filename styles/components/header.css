@@ -21,6 +21,20 @@
 .header__resume{
     display: block;
 }
+.header__links::after{
+    content:"";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: var(--clr-rose);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+
+}
+.header__links:hover::after{
+    transform: scaleX(1);
+}
 
 
 @media(min-width:768px) {
