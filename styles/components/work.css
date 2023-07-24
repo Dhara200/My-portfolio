@@ -5,7 +5,7 @@
   .work__title {
     font-size: var(--size-2xl);
     color: var(--clr-light);
-      margin-bottom:10px;
+      margin-bottom:2rem;
   }
   .work__container{
       margin-top:10px;
@@ -70,6 +70,7 @@
   @media (min-width: 475px) {
     .work__title {
       font-size: var(--size-3xl);
+      margin-bottom: 2rem;
     }
   
     .work__description {
@@ -208,6 +209,9 @@
   
     .work__project-subtitle {
       font-size: var(--size-lg);
+    }
+    .work__title{
+      margin-bottom: 3rem;
     }
   }
   
